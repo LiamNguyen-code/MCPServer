@@ -20,6 +20,7 @@ public static class ApiTool
     {
         try
         {
+            //no token
             var response = await httpClient.GetAsync(url);
 
             if (!response.IsSuccessStatusCode)
